@@ -1,7 +1,2 @@
 #!/bin/bash
-if [ -z "$CFILE" ]; then
-  echo "Error: \$CFILE variable is not set."
-  exit 1
-fi
-
-cpp "$CFILE" -o c
+[ -z "$CFILE" ] && { echo "Error: \$CFILE variable is not set." >&2; exit 1; } || cpp "$CFILE" -o c
