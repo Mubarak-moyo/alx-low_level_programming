@@ -1,14 +1,18 @@
 #include <stdio.h>
 
+/**
+ * main - Starting point
+ *
+ * Return: 0 (Success)
+ */
 int main(void)
 {
-	    int number;
+	int number;
 
-	        for (number = 0; number <= 9; number++)
-			    {
-				            printf("%d\n", number);
-					        }
+	for (number = 0; number <= 9; number++)
+	{
+	printf("%d\n", number);
+	}
 
-		    return 0;
+	return (0);
 }
-
