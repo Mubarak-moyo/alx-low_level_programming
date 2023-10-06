@@ -1,0 +1,7 @@
+
+sitive_or_negative.c:14: WARNING: braces {} are not necessary for any arm of this statement
+0-positive_or_negative.c:16: ERROR: that open brace { should be on the next line
+0-positive_or_negative.c:16: ERROR: else statement following close brace '}' sould be on the next line
+0-positive_or_negative.c:18: ERROR: that open brace { should be on the next line
+0-positive_or_negative.c:18: ERROR: else statement following close brace '}' sould be on the next line
+total: 5 errors, 1 warnings, 26 lines checked
