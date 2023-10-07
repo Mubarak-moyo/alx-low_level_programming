@@ -2,7 +2,7 @@
 
 /**
  *
- * main - Starting point
+ * main - Starting point for the code
  *
  * Return: 0 (Success)
  */
