@@ -10,7 +10,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-	putchar('o' + i);
+	putchar('0' + i);
 	}
 	return (0);
 }
