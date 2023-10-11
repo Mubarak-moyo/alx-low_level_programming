@@ -1,9 +1,14 @@
 #include "main.h"
 
+/**
+ * print_alphabet_x10 - This function prints 10 times the alphabet.
+ */
 void print_alphabet_x10(void)
 {
 	char letter;
+
 	int i;
+
 	for (i = 0; i < 10; i++)
 	{
 	letter = 'a';

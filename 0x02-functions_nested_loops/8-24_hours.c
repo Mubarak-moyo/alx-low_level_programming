@@ -1,7 +1,15 @@
 #include "main.h"
+
+/**
+ * jack_bauer - The time countdown
+ *
+ * This function prints a 24-hour time countdown in "hh:mm" format.
+ * It iterates through time.
+ */
 void jack_bauer(void)
 {
 	int hours, minutes;
+
 	for (hours = 0; hours < 24; hours++)
 	{
 	for (minutes = 0; minutes < 60; minutes++)
