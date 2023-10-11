@@ -12,7 +12,7 @@ int main(void)
 	unsigned int c;
 	int i;
 
-	printf("%u, %u, "a, b);
+	printf("%u, %u, ", a, b);
 
 	for(i = 3; i <= 98; i++)
 	{
