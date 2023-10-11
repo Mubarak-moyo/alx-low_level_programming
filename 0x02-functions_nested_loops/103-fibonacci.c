@@ -16,7 +16,7 @@ int main(void)
 	{
 		sum += term1;
 	}
-	long next_term = term1 + term2;
+	next_term = term1 + term2;
 
 	term1 = term2;
 
