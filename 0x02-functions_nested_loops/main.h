@@ -23,5 +23,7 @@ void jack_bauer(void);
 void times_table(void);
 /* function that adds two integers and returns the result */
 int add(int, int);
+/* function that print all natural numbers from n to 98 */
+void print_to_98(int n);
 
 #endif /* MAIN_H */
