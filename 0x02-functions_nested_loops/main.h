@@ -18,6 +18,6 @@ int _abs(int);
 /* function that prints the last digit of a number */
 int print_last_digit(int);
 /* function that prints every minute of the day */
-int void jack_bauer(void);
+void jack_bauer(void);
 
 #endif /* MAIN_H */
