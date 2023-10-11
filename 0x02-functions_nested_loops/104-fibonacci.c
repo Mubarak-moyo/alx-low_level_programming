@@ -10,7 +10,7 @@
 void add(char a[], char b[], char result[]) {
 	    int carry = 0;
 	    int i;
-	        for (int i = 199; i >= 0; i--) {
+	        for (i = 199; i >= 0; i--) {
 			        int sum = (a[i] - '0') + (b[i] - '0') + carry;
 				        result[i] = (sum % 10) + '0';
 					        carry = sum / 10;
