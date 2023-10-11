@@ -9,6 +9,7 @@ int main(void)
 	long term1 = 1;
 	long term2 = 2;
 	long sum = 0;
+	long next_term;
 
 	while (term1 <= 4000000)
 	{
