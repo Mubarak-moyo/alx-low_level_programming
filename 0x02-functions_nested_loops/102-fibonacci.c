@@ -8,11 +8,12 @@
 int main(void)
 {
 int n = 50;
-long long fib[n];
+long fib[50];
 
 fib[0] = 1;
 fib[1] = 2;
 
+int i;
 for (int i = 2; i < n; i++)
 {
 	fib[i] = fib[i - 1] + fib[i - 2];
