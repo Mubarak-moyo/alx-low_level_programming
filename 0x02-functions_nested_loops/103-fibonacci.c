@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	long long term1 = 1;
-	long long term2 = 2;
-	long long sum = 0;
+	long term1 = 1;
+	long term2 = 2;
+	long sum = 0;
 
 	while (term1 <= 4000000)
 	{
@@ -16,13 +16,13 @@ int main(void)
 	{
 		sum += term1;
 	}
-	long long next_term = term1 + term2;
+	long next_term = term1 + term2;
 
 	term1 = term2;
 
 	term2 = next_term;
 	}
-	printf("Sum of the even-valued term below 4,000,000 is: %lldd\n", sum);
+	printf("Sum of the even-valued term below 4,000,000 is: %ld\n", sum);
 
 	return (0);
 }
