@@ -9,5 +9,7 @@ void print_alphabet(void);
 void print_alphabet_x10(void);
 /* function that checks for a lowercase letter */
 int _islower(int c);
+/* function that checks for alphabet order */
+int _isalpha(int c);
 
 #endif /* MAIN_H */
