@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	unsigned int a = 1;
-	unsigned int b = 2;
-	unsigned int c;
+	int a = 1;
+	int b = 2;
+	int c;
 	int i;
 
 	printf("%u, %u, ", a, b);
