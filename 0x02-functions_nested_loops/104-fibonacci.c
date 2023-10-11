@@ -9,10 +9,11 @@ int main(void)
 {
 	unsigned int a = 1;
 	unsigned int b = 2;
+	int i;
 
 	printf("1,2");
 
-	for (int i = 2; i < 98; i++)
+	for (i = 2; i < 98; i++)
 	{
 	unsigned int next = a + b;
 
