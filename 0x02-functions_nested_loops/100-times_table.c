@@ -6,14 +6,14 @@
  */
 void print_times_table(int n)
 {
+	int i;
+	int j;
+	int product;
+
 	if (n < 0 || n < 15)
 	{
 	return;
 	}
-
-	int i;
-	int j;
-	int product;
 
 	for (i = 0; i <= n; i++)
 	{
@@ -48,4 +48,5 @@ void print_times_table(int n)
 	}
 	_putchar('\n');
 	}
+
 }
