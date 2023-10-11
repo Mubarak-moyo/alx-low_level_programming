@@ -7,27 +7,29 @@
  */
 int main(void)
 {
-	unsigned int a = 1;
-	unsigned int b = 2;
+	int n = 98;
+	int a = 1;
+	int b = 2;
 	int i;
+	int c;
 
-	printf("1,2");
+	printf("%d, %d, ", a, b);
 
-	for (i = 2; i < 98; i++)
+	for (i = 3; i <= n; i++)
 	{
-	unsigned int next = a + b;
+	c = a + b;
+	a = b;
+	b = c;
 
-	if (i < 97)
+	if (i < n)
 	{
-		printf(", %u", next);
+	printf("%d, ", c);
 	}
 	else
 	{
-		printf(", %u\n", next);
+	printf("%d\n", c);
 	}
-	a = b;
-	b = next;
 	}
-
+	
 	return (0);
 }
