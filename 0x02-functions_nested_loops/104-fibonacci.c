@@ -9,6 +9,7 @@
 
 void add(char a[], char b[], char result[]) {
 	    int carry = 0;
+	    int i;
 	        for (int i = 199; i >= 0; i--) {
 			        int sum = (a[i] - '0') + (b[i] - '0') + carry;
 				        result[i] = (sum % 10) + '0';
@@ -21,6 +22,7 @@ int main() {
 	        char b[200] = {0};
 		    char c[200] = {0};
 		        int i;
+			int j;
 
 			    a[199] = '1';
 			        b[199] = '2';
@@ -29,7 +31,7 @@ int main() {
 
 				        for (i = 3; i <= 98; i++) {
 						        add(a, b, c);
-							        for (int j = 0; j < 200; j++) {
+							        for (j = 0; j < 200; j++) {
 									            a[j] = b[j];
 										                b[j] = c[j];
 												        }
