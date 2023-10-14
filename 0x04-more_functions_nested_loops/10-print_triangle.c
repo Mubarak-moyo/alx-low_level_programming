@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_triangle - This is the function responsible foor printing the triangle.
+ * print_triangle - This is the function responsible for printing the triangle.
  * @size: This indicates the size of the triangle.
  */
 void print_triangle(int size)
@@ -16,7 +16,7 @@ void print_triangle(int size)
 
 	for (i = 0; i < size; i++)
 	{
-	for (j = 0; j < size -i - 1; j++)
+	for (j = 0; j < size - i - 1; j++)
 		{
 		_putchar(' ');
 		}
