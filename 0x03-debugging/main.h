@@ -7,6 +7,7 @@
 int largest_number(int a, int b, int c);
 /* Prints how many days are left in a year */
 void print_remaining_days(int month, int day, int year);
+/* tests for numbers */
 void positive_or_negative(int i);
 
 #endif /* MAIN_H */
