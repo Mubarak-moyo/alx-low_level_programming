@@ -7,7 +7,9 @@
  */
 int main(void)
 {
-	int size = 2;
-	print_triangle(size);
+	print_number(98);
+	_putchar('\n');
+	print_number(402);
+	_putchar('\n');
 	return (0);
 }
