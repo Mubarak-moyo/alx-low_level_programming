@@ -29,5 +29,9 @@ void print_number(int n);
 void reset_to_98(int *n);
 /* function that swaps the values of two integers */
 void swap_int(int *a, int *b);
+/* function that return the length of a string */
+int _strlen(char *s);
+/* funtion that prints a string, followed by a new line */
+void _puts(char *str);
 
 #endif /* MAIN_H */
