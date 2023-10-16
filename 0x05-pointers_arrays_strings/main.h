@@ -27,5 +27,7 @@ void print_triangle(int size);
 void print_number(int n);
 /* function that takes a pointer to an int as a parameter and updates its value */
 void reset_to_98(int *n);
+/* function that swaps the values of two integers */
+void swap_int(int *a, int *b);
 
 #endif /* MAIN_H */
