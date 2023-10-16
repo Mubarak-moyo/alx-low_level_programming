@@ -33,5 +33,7 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 /* funtion that prints a string, followed by a new line */
 void _puts(char *str);
+/* function that prints a string in reverse */
+void print_rev(char *s);
 
 #endif /* MAIN_H */
