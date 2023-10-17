@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * puts_half - function that prints the second half of a string followed by a new line.
+ * puts_half - function that prints the second half of a string.
  * @str: The string to be inputted.
  */
 void puts_half(char *str)
