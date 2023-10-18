@@ -9,12 +9,12 @@
  */
 int main(void)
 {
-	int i;
 	const char charset[] = "abcdefgpqrstuvwxyzEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 	int length = 10;
 
 	srand(time(NULL));
 	char password[length + 1];
+	int i;
 
 	for (i = 0; i < length; i++)
 	password[i] = charset[rand() % (sizeof(charset) - 1)];
