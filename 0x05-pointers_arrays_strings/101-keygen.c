@@ -13,10 +13,9 @@ int main(void)
 	const char charset[] = "abcdefgpqrstuvwxyzEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 	int length = 10;
 	char password[11];
+	int i;
 
 	srand(time(NULL));
-	
-	int i;
 
 	for (i = 0; i < length; i++)
 	password[i] = charset[rand() % (sizeof(charset) - 1)];
