@@ -12,9 +12,10 @@ int main(void)
 
 	const char charset[] = "abcdefgpqrstuvwxyzEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 	int length = 10;
+	char password[11];
 
 	srand(time(NULL));
-	char password[11];
+	
 	int i;
 
 	for (i = 0; i < length; i++)
