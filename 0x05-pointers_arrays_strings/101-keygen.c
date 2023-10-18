@@ -10,10 +10,10 @@
 int main(void)
 {
 	int i;
+	const char charset[] = "abcdefgpqrstuvwxyzEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+	int length = 10;
 
 	srand(time(NULL));
-	char charset[] = "abcdefghijklmnopqrstuvwxyzEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-	int length = 10;
 	char password[length + 1];
 
 	for (i = 0; i < length; i++)
