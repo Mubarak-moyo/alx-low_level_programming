@@ -4,8 +4,9 @@
  * _strncat - function that concatenate two strings.
  * @dest: The resulting location of the string.
  * @src: the source string.
+ * @n: the amount of bytes.
  *
- * Return: A pointer to dest.
+ * Return: the pointer result.
  */
 char *_strncat(char *dest, char *src, int n)
 {
