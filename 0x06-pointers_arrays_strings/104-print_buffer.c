@@ -1,28 +1,29 @@
 #include <stdio.h>
 
 void print_buffer(char *b, int size) {
-	int i, j;
+	    int i, j;
+	        int offset = 0;
 
-	    for (i = 0; i < size || (size <= 0 && i == 0); i += 10) {
-		            printf("%08x: ", i);
+		    while (offset < size || (size <= 0 && offset == 0)) {
+			            printf("%08x: ", offset);
 
-			            for (j = 0; j < 10; j++) {
-					                if (i + j < size) {
-								                printf("%02x%c", b[i + j] & 0xFF, (j % 2 == 1) ? ' ' : '\0');
-										            } else {
-												                    printf("  ");
-														                }
-							        }
+				            for (i = 0; i < 10; i++) {
+						                if (i % 2 == 0)
+									                printf("%02x", offset + i < size ? b[offset + i] : 0);
+								            else
+										                    printf("%02x%s", offset + i < size ? b[offset + i] : 0, i == 9 ? "" : " ");
+									            }
 
-				            for (j = 0; j < 10; j++) {
-						                if (i + j < size && b[i + j] >= 32 && b[i + j] <= 126) {
-									                printf("%c", b[i + j]);
-											            } else if (i + j < size) {
-													                    printf(".");
-															                }
-								        }
+					            printf(" ");
+						            for (j = 0; j < 10; j++) {
+								                char c = (offset + j < size) ? b[offset + j] : '\0';
+										            if (c >= 32 && c <= 126)
+												                    putchar(c);
+											                else
+														                putchar('.');
+													        }
 
-					            printf("\n");
-						        }
+							            printf("\n");
+								            offset += 10;
+									        }
 }
-
