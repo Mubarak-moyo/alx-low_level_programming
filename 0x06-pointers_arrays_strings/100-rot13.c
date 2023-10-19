@@ -4,7 +4,7 @@
  *
  * Return: A pointer to the modified sting.
  */
-char *rot13(char *str) 
+char *rot13(char *str)
 {
 	int i, j;
 	char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -22,5 +22,5 @@ char *rot13(char *str)
 	}
 	}
 
-	return str;
+	return (str);
 }
