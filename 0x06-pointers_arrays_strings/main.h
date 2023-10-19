@@ -67,5 +67,7 @@ char *leet(char *);char *leet(char *);
 char *rot13(char *);
 /* function that prints an integer */
 void print_number(int n);
+/* function that adds two numbers */
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
 
 #endif /* MAIN_H */
