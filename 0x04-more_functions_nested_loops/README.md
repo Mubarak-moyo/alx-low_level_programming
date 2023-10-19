@@ -1,1 +1,1 @@
-My first Readme
+Learning and practicing functions in C.
