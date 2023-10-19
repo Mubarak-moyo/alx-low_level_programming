@@ -3,19 +3,10 @@
 
 int main(void)
 {
-	    char s1[98] = "Hello ";
-	        char s2[] = "World!\n";
-		    char *ptr;
+	    char buffer[] = "This is a string!\0And this is the rest of the #buffer :)\1\2\3\4\5\6\7#cisfun\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x20\x21\x34\x56#pointersarefun #infernumisfun\n";
 
-		        printf("%s\n", s1);
-			    printf("%s", s2);
-			        ptr = _strncat(s1, s2, 1);
-				    printf("%s\n", s1);
-				        printf("%s", s2);
-					    printf("%s\n", ptr);
-					        ptr = _strncat(s1, s2, 1024);
-						    printf("%s", s1);
-						        printf("%s", s2);
-							    printf("%s", ptr);
-							        return (0);
+	        printf("%s\n", buffer);
+		    printf("---------------------------------\n");
+		        print_buffer(buffer, sizeof(buffer));
+			    return (0);
 }
