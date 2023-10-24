@@ -13,5 +13,10 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 /* function that locates a substring */
 char *_strstr(char *haystack, char *needle);
+/* function that prints the chessboard */
+void print_chessboard(char (*a)[8]);
+int _putchar(char c);
+/*  function that prints the sum of the two diagonals of a square matrix of integers */
+void print_diagsums(int *a, int size);
 
 #endif /* MAIN_H */
