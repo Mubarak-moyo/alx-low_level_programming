@@ -12,6 +12,7 @@ unsigned int _strspn(char *s, char *accept)
 	unsigned int count = 0;
 
 	while (*s)
+	{
 	int match = 0;
 	char *temp = accept;
 
@@ -23,7 +24,7 @@ unsigned int _strspn(char *s, char *accept)
 	match = 1;
 	break;
 	}
-	temp++
+	temp++;
 	}
 
 	if (!match)
