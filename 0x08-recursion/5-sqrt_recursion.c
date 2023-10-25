@@ -1,12 +1,15 @@
 #include "main.h"
 
-int sqrt_helper(int n, int low, int high) {
-	    if (low > high) {
+int sqrt_helper(int n, int low, int high)
+{
+	int mid;
+    int square;	
+	if (low > high) {
 		            return -1;
 			        }
 
-	        int mid = (low + high) / 2;
-		    int square = mid * mid;
+	        mid = (low + high) / 2;
+		    square = mid * mid;
 
 		        if (square == n) {
 				        return mid;
