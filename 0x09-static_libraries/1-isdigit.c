@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include "main.h"
 
 /**
@@ -6,14 +7,9 @@
  *
  * Return: 1 if c is a no or 0 for otherwise.
  */
-int _isdigit(int c)
+int _isdigit(int var)
 {
-	if (c >= '0' && c <= '9')
-	{
-	return (1);
-	}
-	else
-	{
+	if (isdigit(var))
+		return (1);
 	return (0);
-	}
 }
