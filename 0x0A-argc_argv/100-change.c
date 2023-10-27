@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - prints the minimum number of coins to make change for an amount of money.
+ * main - prints minimum number of coins to make change for an amount of money.
  * @argv: Array that contains the program command line arguments.
  * @argc: number of command line arguments.
  * Return: 0(Success).
@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int cents;
-	int numCoins;
+	int numCoins = 0;
 
 	if (argc != 2)
 	{
@@ -26,34 +26,19 @@ int main(int argc, char *argv[])
 	return (0);
 	}
 
-	numCoins = 0;
-
 	while (cents > 0)
 	{
 	if (cents >= 25)
-		{
 		cents -= 25;
-		numCoins++;
-		}
 	else if (cents >= 10)
-		{
 		cents -= 10;
-		numCoins++;
-		}
 	else if (cents >= 5)
-		{
 		cents -= 5;
-		numCoins++;
-		}
 	else if (cents >= 2)
-		{
 		cents -= 2;
-		numCoins++;
-		}
-	else	{
+	else if (cents >= 1)
 		cents -= 1;
-		numCoins++;
-		}
+	numCoins++;
 	}
 
 	printf("%d\n", numCoins);
