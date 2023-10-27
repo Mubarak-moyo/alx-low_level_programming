@@ -2,7 +2,7 @@
 
 /**
  * main - This prints the name of the program.
- * @argv - Array containing the commaind line arguments.
+ * @argv: Array containing the commaind line arguments.
  * @argc: Number of command line arguments.
  * Return: 0(Success).
  */

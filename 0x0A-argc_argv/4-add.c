@@ -6,7 +6,7 @@
  * main - Program that adds positive numbers.
  * @argc: The number of command line arguments.
  * @argv: array containing the command line arguments.
- * 
+ *
  * Return: 0(Success).
  */
 int main(int argc, char *argv[])

@@ -12,13 +12,13 @@ int main(int argc, char *argv[])
 	int digit1;
 	int digit2;
 	int result;
-	
+
 	if (argc != 3)
 	{
 	printf("Error\n");
 	return (1);
 	}
-	
+
 	digit1 = atoi(argv[1]);
 	digit2 = atoi(argv[2]);
 
