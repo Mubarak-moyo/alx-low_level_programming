@@ -4,14 +4,14 @@
 
 /**
  * _strdup - function that duplicates a string.
- * @str - the string
+ * @str: the string
  *
  * Return: NULL or a pointer to the duplicated string.
  */
 char *_strdup(char *str)
 {
 	char *duplicate;
-	
+
 	if (str == NULL)
 	{
 	return (NULL);
