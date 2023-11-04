@@ -24,5 +24,7 @@ char *_strstr(char *haystack, char *needle);
 char *argstostr(int ac, char *av[]);
 /* function that allocates a memory using malloc */
 void *malloc_checked(unsigned int b);
+/* function that concatenates a string */
+char *string_nconcat(char *s1, char *s2, unsigned int n);
 
 #endif /* MAIN_H */
