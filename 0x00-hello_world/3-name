@@ -1,0 +1,2 @@
+#!/bin/bash
+[ -z "$CFILE" ] && { echo "Error: \$CFILE variable missing."; exit 1; } || gcc "$CFILE" -o cisfun

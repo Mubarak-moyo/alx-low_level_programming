@@ -1,0 +1,2 @@
+#!/bin/bash
+[ -z "$CFILE" ] && { echo "Error: \$CFILE variable missing."; exit 1; } || gcc -c "$CFILE" -o "${CFILE%.c}.o"
